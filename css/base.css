@@ -1,0 +1,80 @@
+﻿*{ margin:0;padding:0;}
+body{font-size:12px;background:#fff;color:#000;font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,b,p,img,pre,form,fieldset,input,textarea,blockquote{margin:0;padding:0;}
+table,td,tr,th{font-size:12px;}
+a{text-decoration:none;}
+li{list-style-type:none;}
+table{margin:0 auto;}
+img{vertical-align:middle;border:0;}
+ol,ul{list-style:none;}   
+caption,th{text-align:left;}  
+h1,h2,h3,h4,h5,h6 {font-size:12px;font-weight:normal;}
+a:hover {text-decoration:none;color:red;}                        
+a {color:red;text-decoration:none}
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+
+.clear{clear:both;}
+.container{width:1200px;margin: 0 auto;position: relative;}
+.logo{width:270px; height:100px; line-height:100px; text-align:center; float:left;}
+.header{width:930px; float:left;}
+/*首页导航*/
+.join-top{width:1200px; margin:0 auto;}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.cont{width:1200px;margin:0px auto;}
+.textcent{ text-align:center}
+.head {height: 70px;width: 100%; }
+.yanse{ background:#be4355; width:50%; position: absolute;  right:0px;z-index:-1px; float:right;height:70px }
+.head-left {float: left;height: 41px;width: 135px;margin-left: 47px;padding-top: 15px;}
+/*nav导航盒子*/
+.nav{width:820px;height:54px;line-height:54px;text-align:center;font-size:14px;position:relative;padding-top:40px; float:right; font-family:"微软雅黑";
+z-index:1000}
+/*nav-main*/
+ul.nav-main{width:100%; list-style-type:none;}
+ul.nav-main span{display:inline-block;margin-left:8px;width:12px;height:9px; margin-bottom:1px; background:url(../images/sg3.jpg) no-repeat center center}
+/*图标向上旋转*/
+/*.hover-up{transition-duration:.5s;transform:rotate(180deg);-webkit-transform:rotate(180deg); }*/
+/*图标向下旋转*/
+/*.hover-down{transition-duration:.5s;transform:rotate(0);-webkit-transform:rotate(0)}*/
+/*导航条设置*/
+ul.nav-main>li{width:114px;height:100%;display:block;float:left;color:#909090;margin-right:1px;cursor:pointer}
+ul.nav-main>li a{color:#909090;}
+ul.nav-main>li:hover{background:; color:#be4355 }
+ul.nav-main>li:hover span{ background:url(../images/sg3.jpg)  no-repeat center center; z-index:100000 }
+/*隐藏盒子设置*/
+div.hidden-box{width:114px;position:absolute;display:none;background:url(../images/sj2.png) no-repeat  top center;top:94px;filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;}
+.hidden-box>ul{width:; margin:6px auto 0; list-style-type:none; background:#fff; color:#ccb58d;cursor:pointer; padding: 0 17px 15px;}
+.hidden-box>ul li{ line-height:30px; height:30px; border-bottom:1px #E6DCCB solid;}
+.hidden-box>ul li a{color:#ccb58d;}
+.hidden-box>ul li:last-child{border-bottom:none;}
+/*.hidden-box li:hover{background:#643519;color:#fff}*/
+
+/*隐藏盒子位置设置*/
+.box01{left:108px}
+.box02{left:226px}
+.box03{left:344px}
+.box04{left:457px}
+.box05{left:571px}
+.box06{left:688px}
+.box07{left:806px}
+
+/*首页底部友情链接*/
+.footer{width:100%; text-align:center; padding:10px 0 10px 0; border-top:1px #E5E7EC solid; margin-top:30px;}
+.footer .footer-top{width:1200px; margin:0 auto;}
+.footer .footer-top .footer-top-le{width:600px; float:left; margin-left:301px;}
+.footer .footer-top .footer-top-ri{width: 100px; float:left; padding:10px 0 0 0; margin:-10px 0 20px 45px;}
+.footer .footer-top .footer-top-ri img{display: block;width:95%;}
+.footer .footer-top .footer-top-ri p{color:#282828;width: 100%;text-align: center;}
+.footer .footer-top .footer-top-le .youlink{font-size:14px; color:#8a8a8a;}
+.footer .footer-top .footer-top-le .youlink span{padding:0 10px; line-height:40px;}
+.footer .footer-top .footer-top-le .youlink span a{color:#8a8a8a;}
+.footer .footer-top .footer-top-le .lianxi{margin-top:20px;}
+.footer .footer-top .footer-top-le .lianxi span{font-size:14px; color:#8a8a8a; line-height:40px; padding:0 10px;}
+.footer .footer-top .footer-top-le .lianxi span img{vertical-align:middle; margin:-3px 4px 0 0;}
+.footer .footer-top .footer-top-le .address{font-size:14px; color:#8a8a8a; line-height:40px;}
+.footer .footer-bot{width:100%; height:auto; border-top:1px #EDEFF3 solid; }
+.footer .footer-bot .beiannum{font-size:14px; color:#8a8a8a; line-height:40px;  margin-top:0;}
+.footer .footer-bot .kexin span{width:100px; height:40px; background:url(../images/img_03.png) no-repeat;
+background-size:contain; display:inline-block;}
+.footer .footer-bot .kexin span:hover{background:url(../images/img_04.png) no-repeat; background-size:contain;}
+
+

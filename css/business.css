@@ -1,0 +1,37 @@
+/* CSS Document */
+@charset "utf-8";
+@import url(base.css);
+body{background:;}
+
+/* title */
+.container{width: 100%;margin: 0 auto;position: relative;}
+.head{width:100%;height:auto;background: #f5f5f5; padding:30px 0; text-align: center;font-size: 30px;overflow: hidden;}
+.head p{font-size:28px;}
+.head .text{font-size:22px; font-family:"微软雅黑"; letter-spacing:5px;}
+.head .textimg{line-height:10px;}
+.head .textimg img{width:75px; height:2px;}
+.newList{width: 100%;height: auto;background: #fcfcfc;}
+.wrapper{width: 1200px;height: 650px;margin: 0 auto;padding-top: 50px;}
+.titleList{width: 155px;float: left;}
+.titleList li{width: 145px;height: 30px;line-height:30px;padding-right: 10px;border-radius: 3px;margin-top: 20px;font-size: 16px;position: relative;}
+.titleList li.cur{background: #eae0cd;}
+.titleList li.cur:after{content: "";width: 2px;height: 20px;position: absolute;left:60px;background: #d5b069;top: 50%;margin-top: -10px;}
+.titleList li a{color: #5b5b5b;position: absolute;right: 5px;display: block;text-align: left;width: 70px;}
+.pages{width: 900px;float: left;margin-left: 75px;height:100%;overflow: hidden;}
+.page{display: none;}
+.page:nth-child(1){display: block;}
+.page h2{font-size: 22px;font-weight: normal;}
+.page article{margin-top: 35px;line-height: 30px;font-size: 14px;color: #404040;}
+.page article span{visibility: hidden;}
+
+.NavigationBar{width: 95%;height: 40px;line-height: 40px;margin: 0 auto;}
+.NavigationBar a{font-size: 14px;color: #333;}
+.pre{color: #999!important;}
+.cur{color: #333;}
+
+
+
+
+
+
+

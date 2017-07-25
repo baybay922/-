@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7;IE=9;IE=8;IE=10;IE=11">
+	<title>新闻中心</title>
+	<link rel="stylesheet" type="text/css" href="/css/newscenter.css" />
+</head>
+<body>
+	<div class="join-top">
+		<div class="mainTop">
+			<div class="logo"><a href="/"><img src="/images/logo.png" /></a></div>
+		    <div class="header">
+		        <div class="nav"> 
+			      <!--导航条-->
+			      <ul class="nav-main">
+			        <li><a href="/">首页</a></li>
+			        <li id="li-1"><a href="/News/">新闻中心</a><!-- <span></span> --></li>
+			        <li id="li-2"><a href="/businessIntroduction.html">业务介绍</a><!-- <span></span> --></li>
+			        <li id="li-3"><a href="/InvestmentField.html">投资领域</a><!-- <span></span> --></li>
+			       <!-- <li id="li-4"><a href="/itsFund.html">旗下基金</a> <span></span></li>-->
+			        <li id="li-4"><a href="/aboutUs.html">关于御金</a><!-- <span></span> --></li>
+			        <li id="li-5"><a href="/joinus.html">加入我们</a><!-- <span></span> --></li>
+			      </ul>
+			      <!--隐藏盒子-->
+			      <div id="box-1" class="hidden-box box01">
+			        <ul>
+			          <li><a href="/News/EnterpriseNews/">御金动态</a></li>
+			          <li><a href="/News/IndustryNews/">网站公告</a></li>
+			        </ul>
+			      </div>
+			       <div id="box-2" class="hidden-box box02">
+			        <ul id="box02">
+				    <li><a href="/businessIntroduction.html?news_list=0">新三板</a></li>
+				    <li><a href="/businessIntroduction.html?news_list=1">贷款银行</a></li>
+				    <li><a href="/businessIntroduction.html?news_list=2">咨询业务</a></li>
+			            <li><a href="/businessIntroduction.html?news_list=3">资产管理</a></li>
+				    <li><a href="/businessIntroduction.html?news_list=4">市值管理</a></li>
+				    <li><a href="/businessIntroduction.html?news_list=5">融资</a></li>
+			        </ul>
+			      </div>
+			      <div id="box-3" class="hidden-box box03">
+			       <ul id="box03">
+			          <li><a href="/InvestmentField.html?news_list=0">房地产</a></li>
+			          <li><a href="/InvestmentField.html?news_list=1">汽车产业</a></li>
+                                  <li><a href="/InvestmentField.html?news_list=2">股权投资</a></li>
+			          <li><a href="/InvestmentField.html?news_list=3">债权投资</a></li>
+			          <li><a href="/InvestmentField.html?news_list=4">投资银行</a></li>
+			        </ul>
+			      </div>
+			     
+			      <div id="box-4" class="hidden-box box04">
+			        <ul id="box04">
+			          <li><a href="/aboutUs.html?news_list=0">公司介绍</a></li>
+			          <li><a href="/aboutUs.html?news_list=1">企业价值观</a></li>
+			          <li><a href="/aboutUs.html?news_list=2">管理团队</a></li>
+			          <li><a href="/aboutUs.html?news_list=3">公司愿景</a></li>
+			        </ul>
+			      </div>
+			      <div id="box-5" class="hidden-box box05">
+			        <ul>
+			          <li><a href="/partner.html">合作伙伴</a></li>
+			          <li><a href="/joinus.html">招聘信息</a></li>
+			        </ul>
+			      </div>
+			    </div>
+		    </div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="joinbox">
+		<div class="joinmain">
+			<p>NEWS CENTER</p>
+			<p class="text">新闻中心</p>
+			<p class="textimg"><img src="/images/join_01.jpg" /></p>
+		</div>
+	</div>
+	<div class="newscenter">
+		{dede:channelartlist}
+			<div class="newsbox">
+				<h2><img src="/images/new_01.png" alt="">御金动态</h2>
+				{dede:arclist titlelen='60' row='3'}
+				<dl>
+					<dt><a href="[field:arcurl/]">[field:title/]</a></dt>
+					<dd>[field:description/]...</dd>
+				</dl>
+				{/dede:arclist}
+				<p><a href="{dede:field name='typeurl'/}"><img src="/images/img_02.png" /></a></p>
+			</div>
+		{/dede:channelartlist}
+	</div>
+	<div class="clear"></div>
+	<div class="footer" style="margin-top:0;">
+		<div class="footer-top">
+			<div class="footer-top-le">
+				<!--<p class="youlink">
+					<span>友情链接：</span>
+					<span><a href="http://www.xtwealth.com/">信通开元</a></span>
+					<span><a href="https://www.xtrich.com/">信德过</a></span>
+					<span><a href="http://www.zgrdcs.com/">融德创世</a></span>
+				</p>-->
+				<p class="lianxi">
+					<span><img src="./images/phone.png" alt="">0871-63981044</span>
+					<span><img src="./images/xin.png" alt="">yjzbyn@163.com</span>
+					<span><img src="./images/time.png" alt="">9:00-17:30</span>
+				</p>
+				<p class="address">办公地址：云南省昆明市盘龙区欣都龙城五栋2501</p>
+			</div>
+			<div class="footer-top-ri">
+				<img src="/images/QRcode.png" alt="">
+				<p>御金官方公众号</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="footer-bot">
+			<p class="beiannum">京ICP证140123号   Copyright 2014 YUJIN.com, All Rights Reserved</p>
+			<p class="kexin"><span></span></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script> 
+	
+    
+</body>
+</html>
+

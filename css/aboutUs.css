@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(base.css);
+
+/*覆盖footer样式*/
+.footer{margin-top:50px;}
+/*页面内部样式*/
+body{background:#F5F7FA;min-height: 955px;}
+html,body{height:100%;}
+.container{height: calc(100% - 295px);}
+.l_mainBox{width: 100%;height: calc(100% - 100px);height: -webkit-calc(100% - 100px);height: -moz-calc(100% - 100px);background: #999;overflow: hidden;font-size: 0;min-height: 594px;}
+
+.l_containerBox{width: 100%;position: relative;top: 0;}
+
+.l_containerBox li{width: 100%;display: inline-block;font-size: 12px;}
+/*公司简介*/
+.l_mainInfo{background:url(../images/aboutUs_img01.png) bottom right no-repeat #fff;background-size: 60%;color: #9199a0;}
+.l_mainInfo h1{width: 100%;text-align: center;color: #bba071;font-size: 36px;margin: 30px 0;}
+.l_mainInfo p{width: 80%;margin-left: 10%;font-size: 12px;line-height: 2.2;}
+.l_fTitle{color:#bba071; }
+/*企业价值观*/
+.l_values{background:url(../images/aboutUs_img02.png) bottom center no-repeat #ccb58d;background-size: 20%;color: #fff;}
+.l_values h1{width: 100%;text-align: center;font-size: 36px;margin: 40px 0 120px 0;position: relative;}
+.l_values h1::after{content:"Corporate Valuses";position: absolute;width: 100%;text-align: center;bottom: -70%;left: 0;color: #a68d62;font-size: 24px;}
+.l_values p{width: 80%;margin-left: 10%;font-size: 12px;margin-top: 80px;text-align: center;position: relative;}
+.l_values p::after{position: absolute;width: 140px;height: 20px;line-height: 20px;font-size: 14px;background: #9e8964;top: -38px;left: 50%;margin-left: -75px;}
+.l_values p:nth-of-type(1)::after{content: "诚信正直，互尊互信";}
+.l_values p:nth-of-type(2)::after{content: "追求卓越，创新高效";}
+.l_values p:nth-of-type(3)::after{content: "价值认同，携手共进";}
+/*管理团队*/
+.l_team{background: url(../images/about_bg.jpg) 90% 50% no-repeat #fff;background-size:;color:#9199a0;position:relative;}
+.l_team h1{position: absolute;width: 40%;color: #bba071;font-size: 36px;text-align: center;top: 40px;left: 30%;}
+.l_team h1::after{content: "Management Team";position: absolute;width: 100%;left: 0;bottom: -80%;font-size: 24px;color: #d6d6d6;}
+#l_photo{width: 30%;height: 80%;position: absolute;left: 10%;bottom: 0;}
+.l_person2{background: url(../images/about_man.png) left bottom no-repeat;background-size: contain;}
+.l_personInfo{display: none;position: absolute;min-height: 40%;width:360px;left:55%;bottom:15%;}
+.l_show{display: block;}
+.l_personInfo span{display: block;}
+.l_personInfo span:nth-of-type(1){font-size: 18px;color: #5c5c5c;}
+.l_personInfo span:nth-of-type(2){font-size: 14px;color: #5c5c5c; margin:15px 0;}
+.l_personInfo span:nth-of-type(3){width:30%;height:6px;background: #ccb58d;margin: 8px 0 14px 0;}
+.l_personInfo span:nth-of-type(4){font-size: 14px; line-height:30px;}
+.l_team a{width: 86px;height: 90px;border-radius: 100%;position: absolute;}
+.l_personIcon1{right: 236px;top: 86px;}
+.l_personIcon2{right: 284px;top: 169px;}
+.l_personIcon3{right: 234px;top: 251px;}
+.l_personIcon4{right: 133px;top: 251px;}
+.l_personIcon5{right: 232px;top: 418px;}
+/*公司构架*/
+.l_companyStr{background:url(../images/aboutUs_img04.png) top right no-repeat #ccb58d;background-size: cover;color: #4f4f4f;}
+.l_companyStr h1{width: 100%;text-align: center;font-size: 36px;margin: 40px 0 90px 0;position: relative;color:#fff;}
+.l_companyStr h1::after{content: "Company Structure";position: absolute;width: 100%;left: 0;bottom: -80%;font-size: 24px;color: #fff;}
+.l_companyStr p{width: 44%;margin-left: 10%;font-size: 14px;line-height: 2;}
+/*公司愿景*/
+.l_companyVis{background:url(../images/aboutUs_img05.png) top left no-repeat #fff;background-size: contain;color: #9199a0;}
+.l_companyVis h1{width: 100%;text-align: center;font-size: 36px;margin: 40px 0 60px 0;position: relative;color:#bba071;}
+.l_companyVis h1::after{content: "Company Structure";position: absolute;width: 100%;left: 0;bottom: -80%;font-size: 24px;color: #d6d6d6;}
+.l_companyVis p{width: 80%;margin-left: 10%;font-size: 14px;line-height: 2;}
+.l_barBox{width: 14px;border-radius: 14px;background: rgba(0,0,0,0.4);position: absolute;top:50%;right: 4%;}
+.l_barBox span{display: block;width: 6px;height: 6px;border-radius: 100%;margin: 6px 0 0 4px;background: rgba(255,255,255,0.4)}
+.l_barBox span:last-of-type{margin-bottom: 6px;}
+.l_focus{background: rgba(255,255,255,0.8)!important;}
